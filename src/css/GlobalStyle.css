@@ -143,7 +143,11 @@ span:hover {
 }
 
 .icon-crow-bio:hover {
-    width: 39%;
+    transition: all 1s;
+    cursor: pointer;
+    filter: drop-shadow(15px 10px 5px rgba(0, 130, 190, 0.281));
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
 .bio-div {

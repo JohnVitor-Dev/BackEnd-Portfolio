@@ -57,6 +57,21 @@ section {
     color: var(--white);
 }
 
+.section-about ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+    line-height: 0;
+}
+
+.section-about ul li{
+    margin: 0;
+}
+
 .section-logo {
     display: flex;
     align-items: center;
@@ -130,6 +145,10 @@ a:hover {
     
     .section-about h1 {
         font-size: 60px;
+    }
+
+    .section-about ul {
+        justify-content: flex-start;
     }
     
     .section-logo {

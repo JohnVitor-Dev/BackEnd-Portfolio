@@ -18,8 +18,8 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0;
+    justify-content: flex-end;
+    margin: 10px 15px 0 0;
     border: 0;
     width: 100%;
 }
@@ -29,17 +29,14 @@ header nav {
 }
 
 header nav ul {
-    display: flex;
+    display: none;
     list-style: none;
     gap: 20px;
+    padding: 0;
     color: #ffffff;
 }
 
-header nav ul li{
-
-}
-
-header nav ul a{
+header nav ul a {
     color: #ffffff;
 }
 
@@ -53,8 +50,18 @@ main {
 
 }
 
-section {
+.mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
+.mobile-menu-button {
+    background-color: transparent;
+    border: 0;
+    margin: 10px 5px 0 0;
+    padding: 0;
+    cursor: pointer;
 }
 
 .section-about {
@@ -67,7 +74,6 @@ section {
 }
 
 .section-about h1 {
-    cursor: url('../img/mouse.png'), auto;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -109,7 +115,7 @@ section {
     stroke: white;
     stroke-dasharray: 474;
     stroke-dashoffset: 0;
-    animation: drawLogo 8s linear;
+    animation: drawLogo 4s linear;
     
 }
 
@@ -133,26 +139,6 @@ a:hover {
     color: aquamarine;
 }
 
-
-
-.social-ul {
-    display: flex;
-    justify-content:flex-start;
-    list-style: none;
-    background-color: aquamarine;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content:start;
-    flex-wrap: wrap-reverse;
-    background-color: red;
-    width: 90%;
-    height: auto;
-
-}
-
 @keyframes drawLogo {
     0%{
         stroke-dashoffset: 474;
@@ -166,6 +152,19 @@ a:hover {
 }
 
 @media (min-width: 1000px) {
+    header {
+        margin: 0;
+        justify-content: center;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
     main {
         flex-direction: row;
     }

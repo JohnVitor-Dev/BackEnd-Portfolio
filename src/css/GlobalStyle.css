@@ -8,10 +8,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(circle, var(--cor-fundo) 10%, #030017 100%);
-    /* background-color: var(--cor-fundo); */
+    background-image: url("/src/img/BackgroundPolygonVertical.svg");
+    background-size:cover;
+    background-position: center center;
     margin: 0;
     padding: 0;
+    cursor: url("/src/img/arrowCursor.svg");
     
 }
 
@@ -41,6 +43,7 @@ header nav ul a {
 }
 
 main {
+    position: relative;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -48,6 +51,86 @@ main {
     width: 100vw;
     height: 100dvh;
 
+}
+
+.superior-menu {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 0;
+    width: 100vw;
+}
+
+.esquerdo-superior {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 0px 0px 100% 0px;
+    background-color: var(--aero);
+    cursor: url("/src/img/arrowCursor.svg");
+}
+
+.expand1:hover {
+    transform:skew(-15deg);
+}
+
+.expand2:hover {
+    transform:skew(10deg);
+}
+
+.esquerdo-superior p {
+    color: #ffffff;
+    margin: 0 0 0 50px;
+    font-size: 18px;
+}
+
+.menu-about-img {
+    width: 60%;
+    height: auto;
+}
+
+.about-arrow-img {
+    width: 50%;
+    height: 60px;
+    margin-left: 20px;
+    transform: rotateZ(180deg);
+}
+
+.direito-superior {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 0 0 0 100%;
+    background-color: var(--aero);
+    cursor: url("/src/img/arrowCursor.svg");
+}
+
+.direito-superior p {
+    color: #ffffff;
+    margin: 0 50px 0 0;
+    font-size: 18px;
+
+}
+
+.menu-projects-img {
+    width: 55%;
+    height: auto;
+}
+
+.projects-arrow-img {
+    width: 50%;
+    height: 60px;
+    margin-left: 50px;
+    padding: 0;
+    transform: rotateX(180deg);
 }
 
 .mobile-menu {
@@ -152,6 +235,10 @@ a:hover {
 }
 
 @media (min-width: 1000px) {
+    body {
+        background-image: url(/src/img/BackgroundPolygonHorizontal.svg)
+    }
+
     header {
         margin: 0;
         justify-content: center;

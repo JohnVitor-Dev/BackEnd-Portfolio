@@ -13,7 +13,7 @@ body {
     background-position: center center;
     margin: 0;
     padding: 0;
-    cursor: url("/src/img/arrowCursor.svg");
+    cursor: url("src/img/arrowCursor.svg");
     
 }
 
@@ -72,7 +72,7 @@ main {
     padding: 10px;
     border-radius: 0px 0px 100% 0px;
     background-color: var(--aero);
-    cursor: url("/src/img/arrowCursor.svg");
+    cursor: url("src/img/arrowCursor.svg");
 }
 
 .expand1:hover {
@@ -110,7 +110,7 @@ main {
     padding: 10px;
     border-radius: 0 0 0 100%;
     background-color: var(--aero);
-    cursor: url("/src/img/arrowCursor.svg");
+    cursor: url("src/img/arrowCursor.svg");
 }
 
 .direito-superior p {
@@ -236,7 +236,7 @@ a:hover {
 
 @media (min-width: 1000px) {
     body {
-        background-image: url(/src/img/BackgroundPolygonHorizontal.svg)
+        background-image: url("/src/img/BackgroundPolygonHorizontal.svg");
     }
 
     header {

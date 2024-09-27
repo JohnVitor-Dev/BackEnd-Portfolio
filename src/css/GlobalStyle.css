@@ -223,6 +223,9 @@ a:hover {
         stroke-dashoffset: 474;
         fill: transparent;
     }
+    80%{
+        fill: transparent;
+    }
     100%{
         stroke-dashoffset: 0;
         fill: white;

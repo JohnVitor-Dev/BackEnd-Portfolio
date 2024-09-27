@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/src/img/BackgroundPolygonVertical.svg");
+    background-image: url("./src/img/BackgroundPolygonVertical.svg");
     background-size:cover;
     background-position: center center;
     margin: 0;
@@ -236,7 +236,7 @@ a:hover {
 
 @media (min-width: 1000px) {
     body {
-        background-image: url("/src/img/BackgroundPolygonHorizontal.svg");
+        background-image: url("./src/img/BackgroundPolygonHorizontal.svg");
     }
 
     header {

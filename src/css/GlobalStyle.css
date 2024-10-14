@@ -154,7 +154,7 @@ main {
 
 .section-about p {
     margin: 0;
-    color: var(--aero);
+    color: white;
     text-align: center;
 }
 

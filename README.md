@@ -1,19 +1,19 @@
-# BackEnd-Portfolio
+<div align="center">
 
-Este é um portfólio pessoal.
+<h1>BackEnd-Portfolio</h1>
 
-## Tecnologias Utilizadas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+</div>
 
 ## Funcionalidades
 
-- **Página Inicial**: Informações principais e introdução.
-- **Projetos**: Lista de projetos desenvolvidos.
-- **Sobre**: Informações sobre o desenvolvedor.
-- **Contato**: Formulário para entrar em contato.
+- **Home**: Informações principais e introdução.
+- **Projects**: Lista de projetos desenvolvidos.
+- **About**: Informações sobre o desenvolvedor.
+- **Contact**: Formulário para entrar em contato.
 
 ## Estrutura do Projeto
 

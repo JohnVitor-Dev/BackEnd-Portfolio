@@ -55,5 +55,5 @@ Para rodar este projeto localmente, siga estas etapas:
      open index.html
 
 ## 📬 Contato
-Entre em contato comigo por [email](primaryjotavee@gmail.com) ou no [LinkedIn](https://www.linkedin.com/in/johnvitoralves/).
+Entre em contato comigo por [email](mailto:primaryjotavee@gmail.com) ou no [LinkedIn](https://www.linkedin.com/in/johnvitoralves/).
 

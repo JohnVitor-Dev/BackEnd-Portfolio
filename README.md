@@ -8,7 +8,7 @@ Este portfólio foi desenvolvido para facilitar o compartilhamento dos meus proj
 
 ### 🔗 Visualizar Online
 
-Você pode acessar meu portfólio online clicando [aqui](https://johncosta-backendportfolio.vercel.app/).
+Você pode acessar meu portfólio online clicando [aqui](https://johnvitor-dev.github.io/BackEnd-Portfolio/).
 
 ## 📁 Estrutura do Projeto
 

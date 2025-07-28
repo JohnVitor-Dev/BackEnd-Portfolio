@@ -2,6 +2,7 @@
   --primary-color: #58a6ff;
   --secondary-color: #1f6feb;
   --background-color: #0d1117;
+  --secondary-background-color: #161B22;
   --text-color: #c9d1d9;
   --border-color: #30363d;
 }
@@ -9,8 +10,10 @@
 body {
   margin: 0;
   background: var(--background-color);
+  font-family: 'Inter', sans-serif;
 }
 
+/* Hero Section */
 .main-container {
   position: relative;
   width: 100%;
@@ -43,20 +46,30 @@ body {
 }
 
 .name-block {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 10%;
+  position: relative;
+  display: inline-block;
 }
 
 .name-block h1 {
+  position: relative;
   color: var(--text-color);
-  font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-size: 48px;
+  z-index: 1;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.name-title-glow {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+  border-radius: 1rem;
+  filter: blur(1rem);
+  opacity: 0.75;
+  z-index: 0;
 }
 
 .role-section {
@@ -86,7 +99,6 @@ body {
 
 .role-text {
   color: var(--primary-color);
-  font-family: 'Inter', sans-serif;
   font-weight: 300;
   letter-spacing: 0.05em;
   font-size: 20px;
@@ -182,6 +194,67 @@ body {
   height: 1rem;
   margin-left: 0.5rem;
 }
+
+/* Projects Section */
+.projects-section {
+  background-color: var(--secondary-background-color);
+  padding: 80px 20px;
+  color: white;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-status {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.status-text {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #cbd5e1;
+}
+
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 /* Keyframe Animations */
 @keyframes pulse-slow {

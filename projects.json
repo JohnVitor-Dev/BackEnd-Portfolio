@@ -1,0 +1,56 @@
+[
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/SpotifyImageDownloader",
+    "deploy_url": "https://spotify-image-downloader.vercel.app/",
+    "techs": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/VerseScape",
+    "deploy_url": "https://johnvitor-dev.github.io/VerseScape/",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/TamagotshiPokemon",
+    "deploy_url": "",
+    "techs": ["C# 11", ".NET 7"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/TabTracker",
+    "deploy_url": "",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JETEJ-Org/KeyRoomAPI-GerenciadorDeSalas",
+    "deploy_url": "https://keyroomapi.vercel.app/",
+    "techs": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "MongoDB"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JETEJ-Org/RoomPreview",
+    "deploy_url": "https://room-preview.vercel.app/",
+    "techs": ["HTML", "CSS", "JavaScript", "React"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/DuskPet-ClinicaVeterinaria",
+    "deploy_url": "https://dusk-pet-clinica-veterinaria.vercel.app/",
+    "techs": ["HTML", "CSS", "JavaScript", "React"],
+    "status": "wip"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/OpenChat",
+    "deploy_url": "https://johnvitor-dev.github.io/OpenChat/",
+    "techs": ["HTML", "CSS", "JavaScript", "Firebase"],
+    "status": "done"
+  },
+  {
+    "repo_url": "https://github.com/JohnVitor-Dev/RandomPassword",
+    "deploy_url": "https://johnvitor-dev.github.io/RandomPassword/",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "status": "done"
+  },
+]
